@@ -11,6 +11,9 @@ yes = st.button("Yes")
 no = st.button("No")
 
 # Fix: Correct name check
+if yes:
+    st.write("It is Yamaan Faraz's Birthday")
+    st.balloons()
 if input_name.strip() in ["Yamaan", "Yamaan Faraz"]:
     st.success("You are right! It is Yamaan Faraz's birthday!")
     st.balloons()
